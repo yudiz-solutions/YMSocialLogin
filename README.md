@@ -1,2 +1,2 @@
 # YMSocialLogin
-signup with facebook and twitter with social framework.
+signup with facebook and twitter using social framework.
