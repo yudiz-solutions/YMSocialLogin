@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03BFCF091E2C8ED70036038D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BFCF081E2C8ED70036038D /* AppDelegate.swift */; };
+		03BFCF0B1E2C8ED70036038D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BFCF0A1E2C8ED70036038D /* ViewController.swift */; };
+		03BFCF0E1E2C8ED70036038D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BFCF0C1E2C8ED70036038D /* Main.storyboard */; };
+		03BFCF101E2C8ED70036038D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BFCF0F1E2C8ED70036038D /* Assets.xcassets */; };
+		03BFCF131E2C8ED80036038D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BFCF111E2C8ED80036038D /* LaunchScreen.storyboard */; };
+		03BFCF1B1E2CC1400036038D /* YMSocialLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BFCF1A1E2CC1400036038D /* YMSocialLogin.swift */; };
+		03BFCF1D1E2CD26B0036038D /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BFCF1C1E2CD26B0036038D /* UIKitExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03BFCF051E2C8ED70036038D /* YMSocialLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMSocialLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03BFCF081E2C8ED70036038D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03BFCF0A1E2C8ED70036038D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03BFCF0D1E2C8ED70036038D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03BFCF0F1E2C8ED70036038D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03BFCF121E2C8ED80036038D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03BFCF141E2C8ED80036038D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03BFCF1A1E2CC1400036038D /* YMSocialLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMSocialLogin.swift; sourceTree = "<group>"; };
+		03BFCF1C1E2CD26B0036038D /* UIKitExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03BFCF021E2C8ED70036038D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03BFCEFC1E2C8ED70036038D = {
+			isa = PBXGroup;
+			children = (
+				03BFCF071E2C8ED70036038D /* YMSocialLogin */,
+				03BFCF061E2C8ED70036038D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03BFCF061E2C8ED70036038D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03BFCF051E2C8ED70036038D /* YMSocialLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03BFCF071E2C8ED70036038D /* YMSocialLogin */ = {
+			isa = PBXGroup;
+			children = (
+				03BFCF081E2C8ED70036038D /* AppDelegate.swift */,
+				03BFCF0A1E2C8ED70036038D /* ViewController.swift */,
+				03BFCF1A1E2CC1400036038D /* YMSocialLogin.swift */,
+				03BFCF1C1E2CD26B0036038D /* UIKitExtension.swift */,
+				03BFCF0C1E2C8ED70036038D /* Main.storyboard */,
+				03BFCF0F1E2C8ED70036038D /* Assets.xcassets */,
+				03BFCF111E2C8ED80036038D /* LaunchScreen.storyboard */,
+				03BFCF141E2C8ED80036038D /* Info.plist */,
+			);
+			path = YMSocialLogin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03BFCF041E2C8ED70036038D /* YMSocialLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03BFCF171E2C8ED80036038D /* Build configuration list for PBXNativeTarget "YMSocialLogin" */;
+			buildPhases = (
+				03BFCF011E2C8ED70036038D /* Sources */,
+				03BFCF021E2C8ED70036038D /* Frameworks */,
+				03BFCF031E2C8ED70036038D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMSocialLogin;
+			productName = YMSocialLogin;
+			productReference = 03BFCF051E2C8ED70036038D /* YMSocialLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03BFCEFD1E2C8ED70036038D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Yudiz Solutions Pvt.Ltd.";
+				TargetAttributes = {
+					03BFCF041E2C8ED70036038D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 03BFCF001E2C8ED70036038D /* Build configuration list for PBXProject "YMSocialLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03BFCEFC1E2C8ED70036038D;
+			productRefGroup = 03BFCF061E2C8ED70036038D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03BFCF041E2C8ED70036038D /* YMSocialLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03BFCF031E2C8ED70036038D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BFCF131E2C8ED80036038D /* LaunchScreen.storyboard in Resources */,
+				03BFCF101E2C8ED70036038D /* Assets.xcassets in Resources */,
+				03BFCF0E1E2C8ED70036038D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03BFCF011E2C8ED70036038D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BFCF0B1E2C8ED70036038D /* ViewController.swift in Sources */,
+				03BFCF091E2C8ED70036038D /* AppDelegate.swift in Sources */,
+				03BFCF1D1E2CD26B0036038D /* UIKitExtension.swift in Sources */,
+				03BFCF1B1E2CC1400036038D /* YMSocialLogin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03BFCF0C1E2C8ED70036038D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03BFCF0D1E2C8ED70036038D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03BFCF111E2C8ED80036038D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03BFCF121E2C8ED80036038D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03BFCF151E2C8ED80036038D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03BFCF161E2C8ED80036038D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03BFCF181E2C8ED80036038D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMSocialLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yudiz.cherish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		03BFCF191E2C8ED80036038D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMSocialLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yudiz.cherish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03BFCF001E2C8ED70036038D /* Build configuration list for PBXProject "YMSocialLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BFCF151E2C8ED80036038D /* Debug */,
+				03BFCF161E2C8ED80036038D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03BFCF171E2C8ED80036038D /* Build configuration list for PBXNativeTarget "YMSocialLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BFCF181E2C8ED80036038D /* Debug */,
+				03BFCF191E2C8ED80036038D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03BFCEFD1E2C8ED70036038D /* Project object */;
+}
